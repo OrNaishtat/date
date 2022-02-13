@@ -34,6 +34,3 @@ def nginx_container_health_check(url="http://localhost:30004/index.html"):
     date_validation(page_date)
 
 
-if __name__ == "__main__":
-    nginx_container_health_check()
-
